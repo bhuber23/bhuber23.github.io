@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url(images/spiration\ dark.png);
+    background: url(images/interlaced.png);
 }
 
 * {
@@ -61,6 +61,10 @@ h5 {
 .fa-linkedin {
     padding-top: 10px;
     color: #887291!important;
+}
+
+a {
+    color: #887291;
 }
 
 .fa-github {
