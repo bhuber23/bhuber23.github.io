@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    <div class="wrapper" data-aos="fade-right">
+    <div class="wrapper" data-aos="flip-right" data-aos-offest="300" data-aos-duration="1000">
         <h2>Brittany Huber</h2>
     </div>
 
-    <div class="wrapper" data-aos="fade-left">
+    <div class="wrapper" data-aos="flip-left" data-aos-offest="300">
         <ul class="nav justify-content-center">
 
             <li class="nav-item">
@@ -36,14 +36,14 @@
         </ul>
     </div>
 
-    <div class="container" data-aos="fade-right" id="about-me">
+    <div class="container" data-aos="flip-right" id="about-me" data-aos-offest="300" data-aos-duration="1000">
         <div class="row">
             <div class="col-lg-12">
                 <h1>About Me</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3" data-aos="fade-left">
+            <div class="col-lg-3" data-aos="flip-left" data-aos-offest="300" data-aos-duration="1000">
                 <img src="images/20191003_225026.jpg" alt="Brittany Huber" class="img-thumbnail">
             </div>
             <div class="col-lg-9">
@@ -66,7 +66,7 @@
         </div>
     </div>
 
-    <div class="container" data-aos="fade-right" id="resume">
+    <div class="container" data-aos="flip-right" id="resume" data-aos-offest="300" data-aos-duration="1000">
         <div class="row">
             <div class="col-lg-12">
                 <h1>Resume</h1>
@@ -75,14 +75,14 @@
         </div>
     </div>
 
-    <div class="container" data-aos="fade-left" id="portfolio">
+    <div class="container" data-aos="flip-left" id="portfolio" data-aos-offest="300" data-aos-duration="1000">
         <div class="row">
             <div class="col-lg-12" data-aos="fade-right">
                 <h1>Portfolio</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12" data-aos="flip-right">
+            <div class="col-md-12" data-aos="flip-right" data-aos-offest="300" data-aos-duration="1000">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -114,7 +114,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12" data-aos="flip-left">
+            <div class="col-md-12" data-aos="flip-left" data-aos-offest="300" data-aos-duration="1000">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -139,7 +139,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12" data-aos="flip-right">
+            <div class="col-md-12" data-aos="flip-right" data-aos-offest="300" data-aos-duration="1000">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -170,7 +170,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12" data-aos="flip-left">
+            <div class="col-md-12" data-aos="flip-left" data-aos-offest="300" data-aos-duration="1000">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -195,9 +195,64 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12" data-aos="flip-right" data-aos-offest="300" data-aos-duration="1000">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/bamazon.png" class="card-img" alt="Bamazon">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Bamazon</h5>
+                                <p class="card-text">Bamazon is a command line Node application that uses Inquirer and
+                                    MySQL and creates an Amazon-style store. The customer facing app will take in orders
+                                    and deplete stock from the existing inventory created in the database using MySQL.
+                                    The manager facing app allows managers to view the full product inventory in the
+                                    database, along with being able to add additional units to the existing inventory
+                                    and add brand new items to the table, as well. NPM packages that are used are MySQL
+                                    for the database, Table to cleanly display the products table in the terminal, and
+                                    Inquirer for the command line prompts. </p>
+                                <div class="card-body">
+                                    <a href="https://github.com/bhuber23/bamazon" class="card-link">Github
+                                        Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" data-aos="flip-left" data-aos-offest="300" data-aos-duration="1000">
+                <div class="card mb-3">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="images/liri-bot.png" class="card-img" alt="LIRI Bot">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">LIRI Bot</h5>
+                                <p class="card-text">The LIRI bot is a command line node application
+                                    that takes in
+                                    parameters that a userenters then gives a response which is logged
+                                    in the console
+                                    based on the command chosen by the user. The application pulls data
+                                    using the Bands
+                                    in Town API, the Spotify API, and the OMDB API.</p>
+                                <div class="card-body">
+                                    <a href="https://github.com/bhuber23/liri-node-app" class="card-link">Github
+                                        Repo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-        <section class="mb-4" id="contact-me" data-aos="flip-right">
+        <section class="mb-4" id="contact-me" data-aos="flip-right" data-aos-offest="300" data-aos-duration="1000">
 
             <h1 class="h1-responsive font-weight-bold my-4">Contact Me</h1>
 
@@ -285,7 +340,7 @@
     </footer>
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 
 </html>
