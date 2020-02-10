@@ -8,15 +8,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/628a020e92.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper" data-aos="fade-right">
         <h2>Brittany Huber</h2>
     </div>
 
-    <div class="wrapper">
+    <div class="wrapper" data-aos="fade-left">
         <ul class="nav justify-content-center">
 
             <li class="nav-item">
@@ -34,51 +36,53 @@
         </ul>
     </div>
 
-    <div class="container" id="about-me">
+    <div class="container" data-aos="fade-right" id="about-me">
         <div class="row">
             <div class="col-lg-12">
                 <h1>About Me</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3" data-aos="fade-left">
                 <img src="images/20191003_225026.jpg" alt="Brittany Huber" class="img-thumbnail">
             </div>
             <div class="col-lg-9">
-                <p>My name is Brittany Huber and I’m a Product Support Specialist with RE/MAX, LLC. I support RE/MAX
-                    affiliates with the technical issues they experience with RE/MAX offered products. I have a
-                    background in customer support roles, with technical troubleshooting experience, as well.</p>
-                <p>I am currently enrolled in the University of Denver Full Stack Development Bootcamp. My interest in
+                <p>My name is Brittany Huber and I am currently enrolled in the University of Denver Full Stack Web
+                    Development Bootcamp. My interest in
                     coding comes from my strong ability to solve problems along with my attention to detail. As
                     frustrating as bugs are in code, it is extremely satisfying to me when you finally resolve the issue
                     and get your code working the way you intended. My goal is to master the skills necessary in order
-                    to
-                    transition to a career in web development. I am a motivated individual looking forward to new
-                    opportunities
-                    that may come my way.</p>
+                    to transition to a career in web development. I am a motivated individual looking forward to new
+                    opportunities that may come my way.</p>
+                <p>My current role is as a Product Support Specialist with RE/MAX, LLC. I support RE/MAX
+                    affiliates with the technical issues they experience with RE/MAX offered products. This includes
+                    troubleshooting their issues, attempting to replicate the bugs they experience, fixing the problem
+                    when possible, or otherwise escalating the issue to the appropriate department. I collaborate with
+                    the development teams and tier II level support in order to research the issues experienced and
+                    determine where there are trends or if the issue is widespread.</p>
                 <p>When I'm not working or coding, you can find me playing video games, baking, or relaxing at home with
                     my cats while binge watching my favorite shows on Netflix.</p>
             </div>
         </div>
     </div>
 
-    <div class="container" id="resume">
+    <div class="container" data-aos="fade-right" id="resume">
         <div class="row">
             <div class="col-lg-12">
                 <h1>Resume</h1>
-                <a href="images/Brittany-Huber-Resume.pdf" target="_blank">Download My Resume Here</a>
+                <a href="images/Resume.pdf" target="_blank">Download My Resume Here</a>
             </div>
         </div>
     </div>
 
-    <div class="container" id="portfolio">
+    <div class="container" data-aos="fade-left" id="portfolio">
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-12" data-aos="fade-right">
                 <h1>Portfolio</h1>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="flip-right">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -110,7 +114,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="flip-left">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -135,7 +139,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="flip-right">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -166,7 +170,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" data-aos="flip-left">
                 <div class="card mb-3">
                     <div class="row no-gutters">
                         <div class="col-md-4">
@@ -192,7 +196,8 @@
             </div>
         </div>
 
-        <section class="mb-4" id="contact-me">
+
+        <section class="mb-4" id="contact-me" data-aos="flip-right">
 
             <h1 class="h1-responsive font-weight-bold my-4">Contact Me</h1>
 
@@ -278,7 +283,9 @@
             <span>Copyright ©</span>
         </div>
     </footer>
-
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

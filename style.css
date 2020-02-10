@@ -11,7 +11,11 @@ body {
 }
 
 .nav-link {
-    color: #887291;
+    color: #562e70;
+}
+
+h2 {
+    color: #562e70;
 }
 
 .container {
@@ -85,3 +89,5 @@ a {
 .email {
     color: #887291!important;
 }
+
+
